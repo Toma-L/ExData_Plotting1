@@ -13,7 +13,7 @@ a[, 2] <- as.numeric(a[, 2])
 
  ### Step2.1: open png device
 
-png(file = "plot2.png", width = 480, height = 480, units = "px")
+png(file = "plot2.png", width = 480, height = 480, units = "px", bg = NA)
 
  ### Step2.2: plot
 
