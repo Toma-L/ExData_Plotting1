@@ -18,7 +18,7 @@ a[, 8] <- as.numeric(a[, 8])
 
  ### Step2.1: open png device
 
-png(file = "plot4.png", width = 480, height = 480, units = "px")
+png(file = "plot4.png", width = 480, height = 480, units = "px", bg = NA)
 
  ### Step2.2: par
 
